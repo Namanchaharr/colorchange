@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-color: beige; 
+}
+
+
+h3 {
+    font-size: 85px;
+    color: #333; 
+    margin-bottom: 100px; 
+}
+
+/* Button styles */
+button {
+    border-radius: 20px; 
+    height: 40px; 
+    width: 100px; 
+    margin: 5px; 
+    font-size: 16px; 
+    color: rgb(0, 0, 0); 
+    border: 2px solid; 
+    border-color: black;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+
+#lightblue {
+    background-color: lightblue; 
+}
+
+#lavender {
+    background-color: lavender; 
+}
+
+#beige {
+    background-color: beige; 
+}
+
+#random {
+    background-color: grey; 
+}
+
+
+button:hover {
+    opacity: 0.3; 
+}
